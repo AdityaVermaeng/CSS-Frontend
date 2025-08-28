@@ -1,0 +1,13 @@
+    .main {
+        display: grid;
+        /* grid-template-columns: 80px 100px 150px; */
+        grid-template-columns: auto auto auto;
+        row-gap: 20px;
+        column-gap: 20px;
+    }
+    
+    .cards {
+        background-color: yellow;
+        padding: 20px;
+        border: 2px solid black;
+    }

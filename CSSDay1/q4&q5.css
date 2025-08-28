@@ -1,0 +1,29 @@
+.card1 {
+    position: relative;
+    background-color: rgb(159, 138, 138);
+    height: 100px;
+    width: 100px;
+    left: 40px;
+    top: 500px;
+    z-index: -1;
+}
+
+.card2 {
+    position: absolute;
+    background-color: rgb(215, 56, 56);
+    height: 100px;
+    width: 100px;
+    left: 80px;
+    top: 450px;
+    z-index: -2;
+}
+
+.card3 {
+    position: absolute;
+    background-color: rgb(44, 17, 182);
+    height: 100px;
+    width: 100px;
+    left: 120px;
+    top: 400px;
+    z-index: -3;
+}
