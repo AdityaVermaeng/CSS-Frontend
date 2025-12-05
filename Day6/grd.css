@@ -1,0 +1,10 @@
+div {
+    height: 200px;
+    width: 400px;
+    background-color: aquamarine;
+    margin: 100px;
+    /* background-image: linear-gradient( 180deg, red 0%, red 10%, black, blue, brown); */
+    box-shadow: 0px 0px 20px 10px blue;
+    /* background-image: repeating-radial-gradient( 180deg, red 0%, red 10%, black, blue, brown); */
+    background-image: conic-gradient( red 0%, red 10%, black, blue, brown);
+}
