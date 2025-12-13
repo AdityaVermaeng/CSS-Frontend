@@ -1,0 +1,114 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    #navList {
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* margin-left: 15px;
+        margin-right: 10px; */
+        padding: 15px;
+    }
+    
+    .container {
+        height: 100vh;
+        width: 100vw;
+        overflow-x: none;
+        background-color: #e2e5e8;
+        background-image: linear-gradient(98deg, #e2e5ed 0%, #ffffff 100%);
+    }
+    
+    .navContainer {
+        width: 100vw;
+        /* background-color: rgb(113, 113, 154, 0.776); */
+        background-color: #0093E9;
+        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+        min-height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    nav {
+        width: 100%;
+        overflow-x: none;
+    }
+    
+    #text {
+        font-size: 2.8rem;
+        color: whitesmoke;
+    }
+    
+    a {
+        text-decoration: none;
+        font-size: 2.8rem;
+        color: aliceblue;
+    }
+    
+    #navItems {
+        display: flex;
+        gap: 40px;
+    }
+    
+    footer {
+        width: 100%;
+    }
+    
+    .footerBox {
+        background-color: #0093E9;
+        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+        color: azure;
+        text-align: center;
+        min-height: 40px;
+    }
+    
+    .footerBox p {
+        color: azure;
+        font-size: 1.7rem;
+    }
+    
+    .contentBox {
+        width: 50%;
+        margin: auto;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    
+    .item {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* margin-left: 40px; */
+    }
+    
+    .rightBox img {
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+    }
+    
+    .leftBox {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .leftBox h2 {
+        font-size: 2rem;
+    }
+    
+    .ingredientBox {
+        font-size: 1.4rem;
+    }
+    
+    .recipeBox {
+        font-size: 1.4rem;
+    }
