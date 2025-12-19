@@ -1,0 +1,26 @@
+.container {
+    background-color: grey;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    height: 600px;
+    width: 360px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#imgSec {
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+}
